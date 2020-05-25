@@ -1,0 +1,89 @@
+#mi{
+    background-color: blue !important;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+#name {
+    border: none;
+    border-bottom: 1px solid#fff;
+    box-shadow: 5px 5px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    outline: 0;
+    padding: 7px;
+}
+
+#psw {
+    border: none;
+    border-bottom: 1px solid#fff;
+    border-radius: 10%;
+    box-shadow: 5px 5px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    outline: 0;
+    padding: 7px;
+}
+
+.register {
+    position: absolute;
+    top: 56%;
+    left: 55%;
+    padding: 80px 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    height: 500px;
+    width: 420px;
+    color: rgb(240, 232, 232);
+    border-radius: 50px;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes anim {
+    from {
+        background-color: rgba(216, 52, 52, 0.6);
+    }
+    to {
+        background-color: rgb(69, 4, 153);
+    }
+    50% {
+        color: rgb(73, 212, 18);
+    }
+}
+
+#butn {
+    margin-left: 2cm;
+    border-radius: 50px;
+}
+
+#login {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.img1 {
+    border-radius: 50%;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(70% /2);
+}

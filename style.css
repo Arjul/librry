@@ -1,0 +1,102 @@
+.navbar{
+    background-color: blue !important;
+}
+.library{
+    height: 250px;
+    /* widows: 500px; */
+    background-color: rgb(22, 9, 80);
+    color: white;
+    font-size: 30px;
+    /* margin: 0px 0px 0px 5px; */
+    display: flexbox;
+    
+
+}
+.box{
+    height: 150px;
+    width: 500px;
+    background-color: rgb(97, 61, 180);
+    margin-left: 64%;
+    transform: translate(-48%, -90%);
+    
+    border-radius: 10px;
+    
+    
+
+
+}
+.library h1{
+    margin-left: 150px;
+    padding-top: 45px;
+}
+.container{
+    
+        height: 400px;
+        width: 2000px;
+        background-color: rgb(255, 255, 255);
+        margin: -50px 0px 0px 150px;
+        padding-top: 20px;
+    }
+    .profile{ 
+        margin-bottom: 10px;
+        height: 200px;
+        width: 1000px; 
+        
+    
+     }
+    .photo{ 
+       
+        float: left; 
+        transform: translate(25%, -5%);
+        
+        
+    }
+    .details{
+        margin-left: 200px;
+        transform: translate(0%, 25%);
+    }
+    .photo img{
+        border-radius: 50%;
+       
+    }
+    .details button{
+        height: 30px;
+        width: 130px;
+        margin-bottom: 5px;
+        font-size:15px ;
+        font-weight: bolder;
+        background-color: rgb(83, 83, 83);
+        color: white;
+        border: gray;
+        cursor: pointer;
+        margin-top: 5px;
+        border-radius: 3px;
+    }
+h2{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: initial;
+}
+.details a{
+
+
+text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 90px;
+    font-weight: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+#btn
+{
+    float: right;
+}
+.btn-primary{
+    margin-left: -10px;
+}
+.btn-danger{
+    margin-left: -10px;
+}

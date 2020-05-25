@@ -1,0 +1,102 @@
+#mi{
+    background-color: blue !important;
+}
+body {
+
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+
+
+
+.register {
+    background-color: rgba(42, 84, 199, 0.5);
+    width: 500px;
+    margin: 15px 0px 6px 440px;
+    color: white;
+    margin-right: 25px;
+    font-size: 18;
+    padding: 20px;
+    border-radius: 70px;
+    transform: translate(30%, 0%);
+    /* animation-name: anim; */
+    /* animation-duration: 5s; */
+    /* animation-iteration-count: infinite; */
+}
+/* 
+@keyframes anim {
+    from {
+        background-color: rgba(51, 18, 143, 0.6);
+    }
+    to {
+        background-color: rgb(20, 152, 240);
+    }
+    50% {
+        color: rgb(75, 245, 89);
+    } */
+/* } */
+
+#register {
+    margin-left: 50px;
+}
+
+
+
+#username {
+    width: 340px;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    padding: 7px;
+}
+
+#userid {
+    width: 340px;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    padding: 7px;
+}
+
+#passid {
+    width: 340px;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    padding: 7px;
+}
+#passid2 {
+    width: 340px;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    padding: 7px;
+}
+
+#mob {
+    width: 270px;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    padding: 7px;
+}
+
+#email {
+    width: 340px;
+    border: none;
+    border-radius: 15px;
+    outline: 0;
+    padding: 7px;
+}
+
+
+
+#num {
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#butn {
+    border-radius: 50px;
+}
