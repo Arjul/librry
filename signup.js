@@ -84,6 +84,17 @@ function validation(){
         mobileError= true;
 
     }
+     else if(mobile.value .length>10){
+
+        moB.innerHTML = "Invalid";
+
+        moB.style.color = "red";
+
+        mob.style.border = "2px solid red";
+
+        mobileError= true;
+
+    }
 
     else{
 
@@ -165,7 +176,7 @@ else{
     passwordError = true;
 
 }
-// if(regpass.test(password2.value)){
+
 
     if(password2.value==="" ) {
 
@@ -179,7 +190,7 @@ else{
         password2Error = true;
 
     }
-// }
+
 else if(password2.value!== password.value) {
     
 
